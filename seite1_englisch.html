@@ -1,0 +1,165 @@
+<html>
+	<head>
+		<title>WELCOME</title>
+		<link rel="preconnect" href="https://fonts.googleapis.com">
+		<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+		<link href="https://fonts.googleapis.com/css2?family=Dosis:wght@200..800&family=Hachi+Maru+Pop&display=swap" rel="stylesheet">
+		<style>
+			body {
+				font-family: "Dosis", sans-serif;
+			}
+			.überschrift {
+				width: 100%;
+				background-color: #8DB600;
+				color: #FFFFFF;
+				display: flex;
+				justify-content: center;
+				align-items: center;
+				box-shadow: 0px 4px 6px #000000;
+				border-radius: 8px;
+				position: fixed;
+				top: 3%;
+				left: 50%;
+				transform: translateX(-50%);
+				padding: 10px 20px;
+			}
+			.menu {
+				position: fixed;
+				left: 0%;
+				top: 30%;
+			}
+			.text1 {
+				position: fixed;
+				top: 30%;
+				left: 50%;
+				transform: translateX(-50%);
+			}
+			.nadine{
+				position: fixed;
+				top: 22%;
+				left: 85%;
+				transform: translateX(-15%);
+			}
+			.nadine:hover img {
+            	transform: scale(1.2);
+				background-color: black; 
+    			border-radius: 8px; 
+				transition: transform 1s ease, background-color 1s ease;
+        	}
+			.logo{
+				position: fixed;
+				top: 4%;
+				left: 85%;
+				transform: translateX(-15%);
+			}
+			.logo:hover img {
+            	transform: scale(1.2);
+				background-color: black; 
+    			border-radius: 8px; 
+				transition: transform 1s ease, background-color 1s ease;
+        	}
+			.englandflagge{
+				position: fixed;
+				top: 4%;
+				right: 93%;
+				transform: translateX(-7%);
+			}
+			.englandflagge:hover img {
+            	transform: scale(1.2);
+				background-color: black; 
+    			border-radius: 8px; 
+				transition: transform 1s ease, background-color 1s ease;
+        	}
+			.slider {
+				position: fixed;
+				bottom: 0;
+				width: 100%;
+				height: 200px;
+				overflow: hidden;
+				background-color:#A4A4A4;
+			}
+			.slider-track {
+				display: flex;
+				width: calc(300px * 5 + 10px * 5); 
+				animation: slide 25s linear infinite;
+			}
+			.slider img {
+    			width: 300px;
+    			height: 200px;
+    			object-fit: cover;
+    			margin-right: 10px;
+				transition: transform 0.5s ease, background-color 0.5s ease;
+			}
+			.slider img:hover {
+    			transform: scale(1.05);
+    			background-color: black; 
+    			border-radius: 8px; 
+			}
+			@keyframes slide {
+				0% {
+					transform: translateX(0);
+				}
+				100% {
+					transform: translateX(-100%);
+				}
+			}
+		</style>
+	</head>
+	<body bgcolor="#A4A4A4">
+		<header class="überschrift">
+			<h1><u>WELCOME TO tiervital</u></h1>
+		</header>
+		<div class="nadine">
+			<img class="nadine" src="nadine.jpg" alt="nadine">
+		</div>
+		<h3 class="text1">ABOUT US:<br>Dear patient owners, my name is Nadine Hallmann. I am the head of the tiervital veterinary practice, formerly the Nadine Schuster veterinary practice.</h3>
+		<div class="logo">
+			<img class="logo" src="logo2.jpg" alt="logo">
+		</div>
+		<div class="englandflagge">
+			<a href="seite1.html"><img class="englandflagge" src="englandflagge.jpg" alt="england"></a>
+		</div>
+		<table border="0" class="menu">
+			<tr>
+				<td>
+					<h2>menu:</h2>
+				</td>
+			</tr>
+			<tr>
+				<td>
+					<a href="seite2.html"><h3>DATES</h3></a>
+				</td>
+			</tr>
+			<tr>
+				<td>
+					<a href="seite3.html"><h3>SPECIES/PERFORMANCES</h3></a>
+				</td>
+			</tr>
+			<tr>
+				<td>
+					<a href="seite4.html"><h3>CONTACT INFORMATION</h3></a>
+				</td>
+			</tr>
+			<tr>
+				<td>
+					<a href="seite5.html"><h3>IMPRINT</h3></a>
+				</td>
+			</tr>
+			<tr>
+				<td>
+					<a href="https://www.google.de/?hl=de"><h3>!!EXIT PAGE!!</h3>
+				</td>
+			</tr>
+		</table>
+		<div class="slider">
+			<div class="slider-track">
+				<img src="tisch.jpg" alt="tisch">
+				<img src="alles.jpg" alt="alles">
+				<img src="fenster.jpg" alt="fenster">
+				<img src="warten.jpg" alt="warten">
+				<img src="logo.jpg" alt="logo"> 
+				<img src="tisch.jpg" alt="tisch">
+			</div>
+		</div>
+	</body>
+</html>
